@@ -1,0 +1,134 @@
+Symptom,weight,Clean Symptom
+itching,1,itching
+skin_rash,3,skin rash
+nodal_skin_eruptions,4,nodal skin eruptions
+continuous_sneezing,4,continuous sneezing
+shivering,5,shivering
+chills,3,chills
+joint_pain,3,joint pain
+stomach_pain,5,stomach pain
+acidity,3,acidity
+ulcers_on_tongue,4,ulcers on tongue
+muscle_wasting,3,muscle wasting
+vomiting,5,vomiting
+burning_micturition,6,burning micturition
+spotting_urination,6,spotting urination
+fatigue,4,fatigue
+weight_gain,3,weight gain
+anxiety,4,anxiety
+cold_hands_and_feets,5,cold hands and feets
+mood_swings,3,mood swings
+weight_loss,3,weight loss
+restlessness,5,restlessness
+lethargy,2,lethargy
+patches_in_throat,6,patches in throat
+irregular_sugar_level,5,irregular sugar level
+cough,4,cough
+high_fever,7,high fever
+sunken_eyes,3,sunken eyes
+breathlessness,4,breathlessness
+sweating,3,sweating
+dehydration,4,dehydration
+indigestion,5,indigestion
+headache,3,headache
+yellowish_skin,3,yellowish skin
+dark_urine,4,dark urine
+nausea,5,nausea
+loss_of_appetite,4,loss of appetite
+pain_behind_the_eyes,4,pain behind the eyes
+back_pain,3,back pain
+constipation,4,constipation
+abdominal_pain,4,abdominal pain
+diarrhoea,6,diarrhoea
+mild_fever,5,mild fever
+yellow_urine,4,yellow urine
+yellowing_of_eyes,4,yellowing of eyes
+acute_liver_failure,6,acute liver failure
+fluid_overload,6,fluid overload
+swelling_of_stomach,7,swelling of stomach
+swelled_lymph_nodes,6,swelled lymph nodes
+malaise,6,malaise
+blurred_and_distorted_vision,5,blurred and distorted vision
+phlegm,5,phlegm
+throat_irritation,4,throat irritation
+redness_of_eyes,5,redness of eyes
+sinus_pressure,4,sinus pressure
+runny_nose,5,runny nose
+congestion,5,congestion
+chest_pain,7,chest pain
+weakness_in_limbs,7,weakness in limbs
+fast_heart_rate,5,fast heart rate
+pain_during_bowel_movements,5,pain during bowel movements
+pain_in_anal_region,6,pain in anal region
+bloody_stool,5,bloody stool
+irritation_in_anus,6,irritation in anus
+neck_pain,5,neck pain
+dizziness,4,dizziness
+cramps,4,cramps
+bruising,4,bruising
+obesity,4,obesity
+swollen_legs,5,swollen legs
+swollen_blood_vessels,5,swollen blood vessels
+puffy_face_and_eyes,5,puffy face and eyes
+enlarged_thyroid,6,enlarged thyroid
+brittle_nails,5,brittle nails
+swollen_extremeties,5,swollen extremeties
+excessive_hunger,4,excessive hunger
+extra_marital_contacts,5,extra marital contacts
+drying_and_tingling_lips,4,drying and tingling lips
+slurred_speech,4,slurred speech
+knee_pain,3,knee pain
+hip_joint_pain,2,hip joint pain
+muscle_weakness,2,muscle weakness
+stiff_neck,4,stiff neck
+swelling_joints,5,swelling joints
+movement_stiffness,5,movement stiffness
+spinning_movements,6,spinning movements
+loss_of_balance,4,loss of balance
+unsteadiness,4,unsteadiness
+weakness_of_one_body_side,4,weakness of one body side
+loss_of_smell,3,loss of smell
+bladder_discomfort,4,bladder discomfort
+foul_smell_ofurine,5,foul smell ofurine
+continuous_feel_of_urine,6,continuous feel of urine
+passage_of_gases,5,passage of gases
+internal_itching,4,internal itching
+toxic_look_(typhos),5,toxic look (typhos)
+depression,3,depression
+irritability,2,irritability
+muscle_pain,2,muscle pain
+altered_sensorium,2,altered sensorium
+red_spots_over_body,3,red spots over body
+belly_pain,4,belly pain
+abnormal_menstruation,6,abnormal menstruation
+dischromic_patches,6,dischromic patches
+watering_from_eyes,4,watering from eyes
+increased_appetite,5,increased appetite
+polyuria,4,polyuria
+family_history,5,family history
+mucoid_sputum,4,mucoid sputum
+rusty_sputum,4,rusty sputum
+lack_of_concentration,3,lack of concentration
+visual_disturbances,3,visual disturbances
+receiving_blood_transfusion,5,receiving blood transfusion
+receiving_unsterile_injections,2,receiving unsterile injections
+coma,7,coma
+stomach_bleeding,6,stomach bleeding
+distention_of_abdomen,4,distention of abdomen
+history_of_alcohol_consumption,5,history of alcohol consumption
+fluid_overload,4,fluid overload
+blood_in_sputum,5,blood in sputum
+prominent_veins_on_calf,6,prominent veins on calf
+palpitations,4,palpitations
+painful_walking,2,painful walking
+pus_filled_pimples,2,pus filled pimples
+blackheads,2,blackheads
+scurring,2,scurring
+skin_peeling,3,skin peeling
+silver_like_dusting,2,silver like dusting
+small_dents_in_nails,2,small dents in nails
+inflammatory_nails,2,inflammatory nails
+blister,4,blister
+red_sore_around_nose,2,red sore around nose
+yellow_crust_ooze,3,yellow crust ooze
+prognosis,5,prognosis
