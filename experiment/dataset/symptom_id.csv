@@ -1,0 +1,134 @@
+Symptom,weight,Clean Symptom,Clean Symptom (ID)
+itching,1,itching,gatal
+skin_rash,3,skin rash,ruam kulit
+nodal_skin_eruptions,4,nodal skin eruptions,letusan kulit nodal
+continuous_sneezing,4,continuous sneezing,bersin terus menerus
+shivering,5,shivering,gemetaran
+chills,3,chills,panas dingin
+joint_pain,3,joint pain,nyeri sendi
+stomach_pain,5,stomach pain,sakit perut
+acidity,3,acidity,keasaman
+ulcers_on_tongue,4,ulcers on tongue,Ulkus di lidah
+muscle_wasting,3,muscle wasting,pemborosan otot
+vomiting,5,vomiting,muntah
+burning_micturition,6,burning micturition,Membakar Micturition
+spotting_urination,6,spotting urination,melihat buang air kecil
+fatigue,4,fatigue,kelelahan
+weight_gain,3,weight gain,kenaikan berat badan
+anxiety,4,anxiety,kecemasan
+cold_hands_and_feets,5,cold hands and feets,Tangan dan Feet Dingin
+mood_swings,3,mood swings,Perubahan suasana hati
+weight_loss,3,weight loss,penurunan berat badan
+restlessness,5,restlessness,kegelisahan
+lethargy,2,lethargy,kelesuan
+patches_in_throat,6,patches in throat,tambalan di tenggorokan
+irregular_sugar_level,5,irregular sugar level,kadar gula tidak teratur
+cough,4,cough,batuk
+high_fever,7,high fever,demam tinggi
+sunken_eyes,3,sunken eyes,Mata cekung
+breathlessness,4,breathlessness,sesak napas
+sweating,3,sweating,berkeringat
+dehydration,4,dehydration,dehidrasi
+indigestion,5,indigestion,gangguan pencernaan
+headache,3,headache,sakit kepala
+yellowish_skin,3,yellowish skin,kulit kekuningan
+dark_urine,4,dark urine,urin gelap
+nausea,5,nausea,mual
+loss_of_appetite,4,loss of appetite,kehilangan selera makan
+pain_behind_the_eyes,4,pain behind the eyes,Nyeri Di Balik Mata
+back_pain,3,back pain,sakit punggung
+constipation,4,constipation,sembelit
+abdominal_pain,4,abdominal pain,sakit perut
+diarrhoea,6,diarrhoea,diare
+mild_fever,5,mild fever,demam ringan
+yellow_urine,4,yellow urine,urin kuning
+yellowing_of_eyes,4,yellowing of eyes,menguning mata
+acute_liver_failure,6,acute liver failure,Kegagalan hati akut
+fluid_overload,6,fluid overload,kelebihan cairan
+swelling_of_stomach,7,swelling of stomach,pembengkakan perut
+swelled_lymph_nodes,6,swelled lymph nodes,Kelenjar getah bening yang bengkak
+malaise,6,malaise,rasa tidak enak
+blurred_and_distorted_vision,5,blurred and distorted vision,penglihatan kabur dan terdistorsi
+phlegm,5,phlegm,dahak
+throat_irritation,4,throat irritation,iritasi tenggorokan
+redness_of_eyes,5,redness of eyes,kemerahan mata
+sinus_pressure,4,sinus pressure,tekanan sinus
+runny_nose,5,runny nose,pilek
+congestion,5,congestion,penyumbatan
+chest_pain,7,chest pain,sakit dada
+weakness_in_limbs,7,weakness in limbs,Kelemahan dalam anggota badan
+fast_heart_rate,5,fast heart rate,detak jantung cepat
+pain_during_bowel_movements,5,pain during bowel movements,rasa sakit selama buang air besar
+pain_in_anal_region,6,pain in anal region,Nyeri di daerah anal
+bloody_stool,5,bloody stool,Bangku berdarah
+irritation_in_anus,6,irritation in anus,iritasi pada anus
+neck_pain,5,neck pain,sakit leher
+dizziness,4,dizziness,pusing
+cramps,4,cramps,kram
+bruising,4,bruising,memar
+obesity,4,obesity,kegemukan
+swollen_legs,5,swollen legs,Kaki bengkak
+swollen_blood_vessels,5,swollen blood vessels,pembuluh darah bengkak
+puffy_face_and_eyes,5,puffy face and eyes,wajah dan mata bengkak
+enlarged_thyroid,6,enlarged thyroid,Tiroid yang diperbesar
+brittle_nails,5,brittle nails,kuku rapuh
+swollen_extremeties,5,swollen extremeties,ekstremitas bengkak
+excessive_hunger,4,excessive hunger,kelaparan berlebihan
+extra_marital_contacts,5,extra marital contacts,Kontak Perkawinan Ekstra
+drying_and_tingling_lips,4,drying and tingling lips,pengeringan dan bibir kesemutan
+slurred_speech,4,slurred speech,Pidato yang tidak jelas
+knee_pain,3,knee pain,sakit lutut
+hip_joint_pain,2,hip joint pain,Nyeri sendi pinggul
+muscle_weakness,2,muscle weakness,kelemahan otot
+stiff_neck,4,stiff neck,leher kaku
+swelling_joints,5,swelling joints,sendi pembengkakan
+movement_stiffness,5,movement stiffness,kekakuan gerakan
+spinning_movements,6,spinning movements,gerakan pemintalan
+loss_of_balance,4,loss of balance,hilangnya saldo
+unsteadiness,4,unsteadiness,kegoyangan
+weakness_of_one_body_side,4,weakness of one body side,kelemahan satu sisi tubuh
+loss_of_smell,3,loss of smell,kehilangan bau
+bladder_discomfort,4,bladder discomfort,ketidaknyamanan kandung kemih
+foul_smell_ofurine,5,foul smell ofurine,bau urin busuk
+continuous_feel_of_urine,6,continuous feel of urine,nuansa urin yang berkelanjutan
+passage_of_gases,5,passage of gases,bagian gas
+internal_itching,4,internal itching,gatal internal
+toxic_look_(typhos),5,toxic look (typhos),tampilan beracun (typhos)
+depression,3,depression,depresi
+irritability,2,irritability,sifat lekas marah
+muscle_pain,2,muscle pain,nyeri otot
+altered_sensorium,2,altered sensorium,Sensorium yang diubah
+red_spots_over_body,3,red spots over body,Bintik merah di atas tubuh
+belly_pain,4,belly pain,sakit perut
+abnormal_menstruation,6,abnormal menstruation,menstruasi abnormal
+dischromic_patches,6,dischromic patches,Patch Dischromic
+watering_from_eyes,4,watering from eyes,menyiram dari mata
+increased_appetite,5,increased appetite,Nafsu makan yang meningkat
+polyuria,4,polyuria,poliuria
+family_history,5,family history,sejarah keluarga
+mucoid_sputum,4,mucoid sputum,Sputum Mucoid
+rusty_sputum,4,rusty sputum,Sputum berkarat
+lack_of_concentration,3,lack of concentration,kurangnya konsentrasi
+visual_disturbances,3,visual disturbances,gangguan visual
+receiving_blood_transfusion,5,receiving blood transfusion,menerima transfusi darah
+receiving_unsterile_injections,2,receiving unsterile injections,menerima suntikan tidak steril
+coma,7,coma,koma
+stomach_bleeding,6,stomach bleeding,Perut berdarah
+distention_of_abdomen,4,distention of abdomen,distensi perut
+history_of_alcohol_consumption,5,history of alcohol consumption,Riwayat konsumsi alkohol
+fluid_overload,4,fluid overload,kelebihan cairan
+blood_in_sputum,5,blood in sputum,Darah dalam dahak
+prominent_veins_on_calf,6,prominent veins on calf,pembuluh darah terkemuka di betis
+palpitations,4,palpitations,palpitasi
+painful_walking,2,painful walking,berjalan menyakitkan
+pus_filled_pimples,2,pus filled pimples,jerawat mengisi nanah
+blackheads,2,blackheads,Blackheads
+scurring,2,scurring,bergegas
+skin_peeling,3,skin peeling,kulit mengelupas
+silver_like_dusting,2,silver like dusting,perak seperti debu
+small_dents_in_nails,2,small dents in nails,penyok kecil di kuku
+inflammatory_nails,2,inflammatory nails,Kuku radang
+blister,4,blister,lepuh
+red_sore_around_nose,2,red sore around nose,sakit merah di sekitar hidung
+yellow_crust_ooze,3,yellow crust ooze,Kapten kuning
+prognosis,5,prognosis,prognosa
