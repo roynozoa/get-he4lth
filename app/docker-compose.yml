@@ -1,0 +1,20 @@
+version: "3.3"
+services:
+  streamlit-fasttext:
+    build:
+        dockerfile: ./Dockerfile
+        context: ./
+    ports:
+      - '8080:8080'
+  streamlit-tensorflow:
+    build:
+        dockerfile: ./tf.Dockerfile
+        context: ./
+    ports:
+      - '8081:8081'
+  streamlit-tensorflow-bert:
+    build:
+        dockerfile: ./tf-bert.Dockerfile
+        context: ./
+    ports:
+      - '8082:8082'
