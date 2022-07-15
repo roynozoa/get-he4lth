@@ -1,4 +1,4 @@
-version: "3.9"
+version: "3.3"
 services:
   streamlit-fasttext:
     build:
@@ -12,7 +12,7 @@ services:
         context: ./
     ports:
       - '8081:8081'
-  streamlit-tensorflow-build:
+  streamlit-tensorflow-bert:
     build:
         dockerfile: ./tf-bert.Dockerfile
         context: ./
