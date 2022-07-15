@@ -1,7 +1,7 @@
-streamlit==0.82.0
+streamlit==1.11.0
 pandas==1.2.4
-numpy==1.19.2
-scikit-learn==1.1.1
+numpy==1.20
+scikit-learn==1.0
 matplotlib==3.3.3
 fasttext==0.9.2
 tensorflow==2.9.0
