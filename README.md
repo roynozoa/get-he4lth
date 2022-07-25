@@ -22,7 +22,68 @@ Link to the dataset = [link](https://www.kaggle.com/datasets/itachi9604/disease-
 
 ## Model
 
+Kami menggunakan 3 model arsitektur yang berbeda untuk melakukan prediksi penyakit ini. Berikut adalah penjelasan secara detail tentang ketiga model tersebut.
+
+### 1. Basic TensorFlow NLP Model
+
+Merupakan TensorFlow Model Sequential API yang terdiri dari beberapa layer. Untuk menggunakan model ini dilakukan pre-processing seperti **tokenizer** pada text input dan **label encoder** pada label. Setelah dilakukan pre-processing terhadap data text input dan label maka data tersebut siap digunakan untuk training model.
+
+Arsitektur Model Tensorflow Terbaik
+![Arsitejtur Model Tensorflow Terbaik](./experiment/model/model-tensorflow.png)
+
+
+### 2. Smaller BERT model dan preprocessingnya via TF-Hub [link](https://tfhub.dev/tensorflow/small_bert/bert_en_uncased_L-6_H-128_A-2/2)
+Melakukan transfer learning model smaller BERT via Tensorflow Hub karena BERT adalah SOTA untuk masalah NLP, dengan mencoba BERT kita bisa mengetahui bagaimana performa dari model BERT itu sendiri. Untuk menggunakan bert kita juga perlu menggunakan layer pre-processing yang juga sudah tersedia via TF-Hub. Jika semua sudah disiapkan, model sudah siap di train dengan text input serta labelnya.
+
+Arsitektur Model Bert
+![Arsitejtur Model Bert](./experiment/model/model-bert.png)
+
+### 3. FastText Library Model (Non-TensorFlow)
+Merupakan library yang terkenal karena performa kecepatan ketika training serta predicting dalam hal NLP terutama text classification. Hal ini dilakukan hanya untuk pembanding dengan model yang kita buat dengan TensorFlow.
 
 ## Result
 
+Berikut adalah hasil performa dan metrik dari ketiga model arsitektur yang sudah dijelaskan diatas.
+
+### 1. Basic TensorFlow NLP Model
+Accuracy: 100 %
+Validation Accuracy: 100 %
+Loss: 0.0012
+Validation Loss: 0.0011
+Inference Time (s): 0.0579 s
+
+
+![](./experiment/model/model-tensorflow-result.png)
+![](./experiment/model/model-tensorflow-result-loss.png)
+
+Plot Loss dan Accuracy
+
+### 2. Smaller BERT model dan preprocessingnya via TF-Hub [link](https://tfhub.dev/tensorflow/small_bert/bert_en_uncased_L-6_H-128_A-2/2)
+Accuracy: 98 %
+Validation Accuracy: 100 %
+Loss: 0.0747
+Validation Loss: 0.0112
+Inference Time (s): 1.2850 s
+
+![](./experiment/model/model-bert-result.png)
+![](./experiment/model/model-bert-result-loss.png)
+
+Plot Loss dan Accuracy
+
+### 3. FastText Library Model (Non-TensorFlow)
+Accuracy: 99.11 %
+Precision: 99.18 % 
+Recall: 99.11 %
+F1: 99.11 %
+Inference Time (s): 0 s
+
+## Summary
+
+Dari ketiga model arsitektur yang kita buat, kita bisa mendapatkan hasil yang sangat maksimum dalam kasus disease classification prediction yang berbasis NLP ini. Ketiga model ini mampu mendapatkan akurasi 99 hingga 100 %. Namun yang perlu diperhatikan dalam hal ini adalah waktu yang diperlukan untuk prediksi sebuah kata. Dengan menggunakan kata string yang sama terhadap ketiga model arsitektur, waktu yang tercepat untuk memprediksi sebuah kata tersebut adalah model FastText library dengan 0 second. Selanjutnya adalah model arsitektur TensorFlow sequential API NLP sederhana dengan 0.059 second. Dan yang paling lama dalam waktu prediksi adalah model Small BERT dengan 1.28 second.
+
 ## Reference
+- BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding - 2019 - Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova - https://arxiv.org/abs/1810.04805
+- https://tfhub.dev/tensorflow/bert_en_uncased_preprocess/3 
+- Well-Read Students Learn Better: On the Importance of Pre-training Compact Models - 2019 - Iulia Turc, Ming-Wei Chang, Kenton Lee, Kristina Toutanova - https://arxiv.org/abs/1908.08962
+- https://tfhub.dev/tensorflow/small_bert/bert_en_uncased_L-6_H-128_A-2/2 
+- Disease Symptom Prediction (Diberi oleh tim DTS) - https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset?select=dataset.csv 
