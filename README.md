@@ -22,7 +22,26 @@ Link to the dataset = [link](https://www.kaggle.com/datasets/itachi9604/disease-
 
 ## Model
 
+Saat ini, kami memiliki 3 model arsitektur yang berbeda untuk melakukan prediksi penyakit ini. Berikut adalah penjelasan secara detail tentang ketiga model tersebut.
+
+### 1. Basic TensorFlow NLP Model
+
+Merupakan TensorFlow Model Sequential API yang terdiri dari beberapa layer. Untuk menggunakan model ini dilakukan pre-processing seperti **tokenizer** pada text input dan **label encoder** pada label. Setelah dilakukan pre-processing terhadap data text input dan label maka data tersebut siap digunakan untuk training model.
+
+
+
+### 2. Smaller BERT model dan preprocessingnya via TF-Hub [link](https://tfhub.dev/tensorflow/small_bert/bert_en_uncased_L-6_H-128_A-2/2)
+
+### 3. FastText Library Model (Non-TensorFlow)
 
 ## Result
+
+Berikut adalah hasil performa dan metrik dari ketiga model arsitektur yang sudah dijelaskan diatas.
+
+### 1. Basic TensorFlow NLP Model
+
+### 2. Smaller BERT model dan preprocessingnya via TF-Hub [link](https://tfhub.dev/tensorflow/small_bert/bert_en_uncased_L-6_H-128_A-2/2)
+
+### 3. FastText Library Model (Non-TensorFlow)
 
 ## Reference
