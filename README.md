@@ -79,4 +79,11 @@ Inference Time (s): 0 s
 
 ## Summary
 
+Dari ketiga model arsitektur yang kita buat, kita bisa mendapatkan hasil yang sangat maksimum dalam kasus disease classification prediction yang berbasis NLP ini. Ketiga model ini mampu mendapatkan akurasi 99 hingga 100 %. Namun yang perlu diperhatikan dalam hal ini adalah waktu yang diperlukan untuk prediksi sebuah kata. Dengan menggunakan kata string yang sama terhadap ketiga model arsitektur, waktu yang tercepat untuk memprediksi sebuah kata tersebut adalah model FastText library dengan 0 second. Selanjutnya adalah model arsitektur TensorFlow sequential API NLP sederhana dengan 0.059 second. Dan yang paling lama dalam waktu prediksi adalah model Small BERT dengan 1.28 second.
+
 ## Reference
+- BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding - 2019 - Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova - https://arxiv.org/abs/1810.04805
+- https://tfhub.dev/tensorflow/bert_en_uncased_preprocess/3 
+- Well-Read Students Learn Better: On the Importance of Pre-training Compact Models - 2019 - Iulia Turc, Ming-Wei Chang, Kenton Lee, Kristina Toutanova - https://arxiv.org/abs/1908.08962
+- https://tfhub.dev/tensorflow/small_bert/bert_en_uncased_L-6_H-128_A-2/2 
+- Disease Symptom Prediction (Diberi oleh tim DTS) - https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset?select=dataset.csv 
